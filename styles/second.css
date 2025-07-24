@@ -58,10 +58,10 @@ font-size: 16;
   .btn-primary {
             background-color: #E95A08;
             color: white;
-            padding: 10px 20px;
+           padding: 20px 20px ; 
          font-size: 0.8em;
             border: none;
-           
+           width:270px ;
             font-weight: 300;
             margin-bottom: 35px;
         }
@@ -155,6 +155,8 @@ width: 415px;
 .plant-para{
    text-align: center;
  height: 138px;
+ justify-content: center;
+ align-items: center;
     
 
 }
@@ -164,28 +166,32 @@ width: 415px;
 .container {
     height:999px ;
     width:1140px ;
-   margin-top: 49px;
-   
-   
-    
-
-  
+   margin-top: 49px;  
+   margin-bottom:70px; 
+ 
 }
     .plant-card{
     width: 270px;
     height: 484px;
-    ;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
 }
  
  .card2{
   gap: 20px;
   width:1140px;
+  margin-bottom: 50px;
  } 
 .card3{
   gap: 20px;
   width:1140px;
  } 
-
+ .lover-para{
+    list-style-type:circle;
+  
+ }
 
 
 
@@ -195,8 +201,9 @@ width: 415px;
                              /* responsive design */
 
        @media screen and ( max-width:576px) {
-.header{
+.header, main{
     max-width: 394px;
+   
 }
         .nav-bar{
             
@@ -226,11 +233,24 @@ width: 415px;
     column-gap: 28px;
 
 }
-.plant-para{
+.plant{
    text-align: center;
  height: 138px;
- margin-top: 65px;
+ margin-top:195px;
         }
+.container{
+    margin-top: 98px;
+     margin-bottom:70px; 
+}
 
 
+
+
+
+.card2, .card3{
+    display: flex;
+    flex-direction: column;
+    
     }
+
+       }
