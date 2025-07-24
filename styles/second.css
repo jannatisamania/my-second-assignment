@@ -18,7 +18,10 @@
           }    
   main> section{
     margin-top: 130px;
-  }        
+  }   
+  footer{
+    margin-top: 150px;
+  }     
     img{
     max-width: 100%;
 }
@@ -241,6 +244,22 @@ top: 190px;
 
 
 
+
+
+
+
+
+
+.footer{
+    width: 1120px;
+    height: 248px;
+    margin: 0 auto;
+}
+.footer-logo{
+    height:179px ;
+    width:359px ;
+
+}
 
                              /* responsive design */
 
