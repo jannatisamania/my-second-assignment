@@ -16,16 +16,17 @@
             margin: 0 auto;
             
           }    
-  main> section{
+   main> section{
     margin-top: 130px;
-  }   
+  }  
   footer{
     margin-top: 150px;
   }     
-    img{
+img{
     max-width: 100%;
 }
            main{
+
             max-width: 1440px;
             margin: 0 auto;
           }    
@@ -66,9 +67,9 @@ font-size: 16;
            padding: 20px 20px ; 
          font-size: 0.8em;
             border: none;
-           width:270px ;
-            font-weight: 300;
-            margin-bottom: 35px;
+           font-weight: 300;
+
+            
         }
 
         .card-price{
@@ -88,25 +89,23 @@ font-size: 16;
     justify-content: space-between;
     height: 71px;
 
-     width: 1140px;
-     margin: 0 auto;
-     margin-bottom: 120px;
-     margin-top: 30px;
+     
+     
+     
   }
   .nav-img{
-    width: 135px;
-    height: 82px;
+ width:100%;
     
 
   }
   .nav-links{
  gap: 48px;
  list-style: none;
-  margin-top: 50px;
+
    
   }
   .nav-item{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: #252432;
     text-decoration: none;
@@ -116,7 +115,7 @@ font-size: 16;
 
   
   .nav-bar img{
-width: 415px;
+          width:100%;
   }   
   .nav-link{
     text-decoration: none;
@@ -129,23 +128,22 @@ width: 415px;
   }
   .cart-img{
     height: 25px;
-   /*  width: 25px; */
+  
 
 
   }
  .nav-content{
     display: flex;
-    width: 1140px;
-    height: 461px;
+       height: 461px;
     align-items:bottom ;
     justify-content: center;
      margin: 0 auto;  
      margin-top: 120px;     
 } 
 .nav-text{
-    height: 299px;
-    width: 570px;
-    margin-top: 100px;
+    
+      margin-top: 162px;
+ 
 }
 .nav-im2{
     width: 570px;
@@ -445,15 +443,20 @@ margin-bottom: 15px;
                              /* responsive design */
 
        @media screen and ( max-width:576px) {
-.header, main{
-    max-width: 394px;
-   
+
+   main> section{
+    margin-top: 130px;
+  }  
+#cart-all{
+  display: contents;
 }
-        .nav-bar{
-            
-             height: 100px;
-            width: 100%;
-                  }
+
+
+ 
+        .nav-content{
+          margin-top: 150px;
+        }
+              
         .nav-item{
             display: none;
 
@@ -463,12 +466,11 @@ margin-bottom: 15px;
             margin-left: 16px  ;
             margin-right: 16px;
             margin-bottom: 65px;
-            height: 147px;
-            width: 362px;
+         
+         
         }
  .nav2-img{
-  height: 245px;
-            width: 394px;
+  
            
         margin-top: 28px; }
         .nav-content{
@@ -479,7 +481,7 @@ margin-bottom: 15px;
 }
 .plant{
    text-align: center;
- height: 138px;
+
  margin-top:195px;
         }
 .container{
@@ -487,16 +489,27 @@ margin-bottom: 15px;
      margin-bottom:200px; 
 }
 
-.lover{
-    flex-direction: column;
-    margin-top: 5px;
+.lover,
+.deal {
+   margin-bottom: 500px;
+    margin-top:1000px;
+}
+.deal{
+  margin-top: 1400px;
 }
 
+.shop-text,
+.lover,
+.deal-offer
+{
+   flex-direction: column;
+}
 
+}
 
 .card2, .card3{
     display: flex;
-   flex-wrap: wrap;
+ 
     
     }
 
